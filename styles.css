@@ -17,6 +17,7 @@ a {
   text-decoration: none;
   color: #999;
 }
+
 a:hover {
   color: #6633ff;
 }
@@ -32,6 +33,7 @@ a:hover {
   text-align: center;
   z-index: 1;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -40,17 +42,21 @@ a:hover {
   margin: 0 auto;
   padding: 0;
 }
+
 .nav .name {
     display: block;
     margin-right: auto;
     color: white;
 }
+
 .nav li {
   padding: 5px 10px 10px 10px;
 }
+
 .nav a {
   transition: all .5s;
 }
+
 .nav a:hover {
   color: white
 }
@@ -64,9 +70,11 @@ header {
   height: 1000px;
   padding-top: 60px;
 }
+
 header {
   line-height: 1.5;
 }
+
 header .profile-image {
   margin-top: 350px;
   width: 150px;
@@ -78,6 +86,7 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -88,15 +97,18 @@ header .profile-image:hover {
   opacity: 0.8;
   filter: alpha(opacity=80); /* for IE8 and earlier*/
 } 
+
 .tag:hover {
   opacity: 1.0;
   filter: alpha(opacity=100); /* for IE8 and earlier*/
   transform: scale(1.1) rotate(-3deg);
 }
+
 .location {
   background-color: #222;
   color: pink;
 }
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -107,9 +119,11 @@ header .profile-image:hover {
   border-radius: 100px;
   transition: all .5s;
 }
+
 .card:hover {
   border-color: #ff66d9;
 }
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -127,14 +141,17 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: black;
 }
+
 .picture {
   width: 100%;
   padding: 3em;
   background: url('images/teaching.jpg') no-repeat center;
 }
+
 h2 {
   font-size: 40px;
 }
+
 h3 {
   background-color: #ff66d9;
   color: white;
@@ -145,6 +162,7 @@ h3 {
   opacity: 0.8;
   filter: alpha(opacity=80); /* for IE8 and earlier*/
 }
+
 #experience{
   text-align: left;
   padding: 3em;
@@ -152,6 +170,7 @@ h3 {
   font-size: 20px;
   max-width: 100%;
 }
+
 footer {
   width: 100%;
   min-height: 30px;
@@ -183,18 +202,23 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
+
 a.twitter {
   background-image: url(images/twitter.svg);
 }
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
+
 a.github {
   background-image: url(images/github.svg);
 }
+
 a.social:hover {
   opacity: 1;
 }
+
 .clearfix {
   clear: both;
 }
