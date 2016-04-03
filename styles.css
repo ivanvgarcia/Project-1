@@ -26,12 +26,13 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #3acec2;
   min-height: 30px;
   padding: 10px;
   position: fixed;
   text-align: center;
   z-index: 1;
+  box-shadow: 0 1px 4px rgba(0,0,0, .4);
 }
 
 .nav {
@@ -80,7 +81,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid #3acec2;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -132,7 +133,7 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff66d9;
+  background: #3acec2;
   color: white;
   padding: 5px 10px;
   margin: 2px;
